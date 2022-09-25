@@ -5,12 +5,9 @@ import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
-
-
 import Runner.SubscriptionTestClass;
 import Utilities.TestUtility;
 import io.github.bonigarcia.wdm.WebDriverManager;
