@@ -16,10 +16,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Baseclass extends TestUtility {
 	public WebDriver driver;
-	public  ExtentReports er;
 	public TestUtility tu;
 	public Properties pr;
-	public  ExtentTest et;
 	
 	public WebDriver openbroweser()
 	{
@@ -29,18 +27,6 @@ public class Baseclass extends TestUtility {
 		tu.launchSite(driver,"https://subscribe.stctv.com/");
 		//et.setDescription("Opened the site");
 		return driver;
-	}
-	
-	public void extentreportdec(String Testname)
-	{
-		er = new ExtentReports("E:\\Selenium\\ValuelabssiteTest\\target\\extentreports.html",false);
-		et = er.startTest(Testname);	
-	}
-	
-	public void closeextentreportdec(String Testname)
-	{
-		er.endTest(et);
-		er.flush();		
 	}
 	
 }

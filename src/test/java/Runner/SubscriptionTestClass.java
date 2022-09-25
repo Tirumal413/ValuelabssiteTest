@@ -42,7 +42,6 @@ public class SubscriptionTestClass extends Baseclass {
 	public void setup()
 	{
 		bc = new Baseclass();
-		bc.extentreportdec("SubscriptionPageTest");
 	}
 	
 	@BeforeMethod
@@ -135,6 +134,7 @@ public class SubscriptionTestClass extends Baseclass {
 	   // Thread.sleep(2000);
 	    
 	    w.until(ExpectedConditions.elementToBeClickable(subscriptionpage.Country_change));
+	    
 	    subscriptionpage.CountryChange_click();
 	    
 	    subscriptionpage.SelectBhCOuntry_click();
@@ -207,16 +207,17 @@ public class SubscriptionTestClass extends Baseclass {
 	   // Thread.sleep(2000);
 	    w.until(ExpectedConditions.elementToBeClickable(subscriptionpage.changelanguagebutton));
 	    subscriptionpage.changelanguagebutton_click();
-	    Thread.sleep(2000);
-	    
+	   
+	    w.until(ExpectedConditions.visibilityOf(subscriptionpage.Country_change));
 	    subscriptionpage.CountryChange_click();
+	    
 	    subscriptionpage.SelectkwCOuntry_click();
 	    
 	    //Thread.sleep(5000);
 	    
 	    
 	    //Validation Whether Choose your plan text is present
-	    w.until(ExpectedConditions.visibilityOf(subscriptionpage.Country_change));
+	    
 	    String plantext = subscriptionpage.subscription_chooseplan_text();
 	    Assert.assertEquals(plantext, "Choose Your Plan");
 	    
@@ -273,10 +274,5 @@ public class SubscriptionTestClass extends Baseclass {
 		driver.close();
 	}
 	
-	@AfterClass
-	public void flusextenreports()
-	{
-		bc.closeextentreportdec("SubscriptionPageTest");
-	}
 	
 }
