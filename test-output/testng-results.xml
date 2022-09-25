@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78062" started-at="2022-09-25T12:10:30Z" finished-at="2022-09-25T12:11:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78062" started-at="2022-09-25T12:10:30Z" finished-at="2022-09-25T12:11:48Z">
+      <class name="Runner.SubscriptionTestClass">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Runner.SubscriptionTestClass@6325a3ee]" name="setup" is-config="true" duration-ms="687" started-at="2022-09-25T17:40:30Z" finished-at="2022-09-25T17:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="intialiseel()[pri:0, instance:Runner.SubscriptionTestClass@6325a3ee]" name="intialiseel" is-config="true" duration-ms="24567" started-at="2022-09-25T17:40:30Z" finished-at="2022-09-25T17:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialiseel -->
+        <test-method status="PASS" signature="Subscrition_Bharian()[pri:0, instance:Runner.SubscriptionTestClass@6325a3ee]" name="Subscrition_Bharian" duration-ms="7710" started-at="2022-09-25T17:40:55Z" finished-at="2022-09-25T17:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Subscrition_Bharian -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Runner.SubscriptionTestClass@6325a3ee]" name="AfterMethod" is-config="true" duration-ms="1384" started-at="2022-09-25T17:41:03Z" finished-at="2022-09-25T17:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="intialiseel()[pri:0, instance:Runner.SubscriptionTestClass@6325a3ee]" name="intialiseel" is-config="true" duration-ms="13051" started-at="2022-09-25T17:41:04Z" finished-at="2022-09-25T17:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialiseel -->
+        <test-method status="PASS" signature="Subscrition_KSA()[pri:0, instance:Runner.SubscriptionTestClass@6325a3ee]" name="Subscrition_KSA" duration-ms="2270" started-at="2022-09-25T17:41:17Z" finished-at="2022-09-25T17:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Subscrition_KSA -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Runner.SubscriptionTestClass@6325a3ee]" name="AfterMethod" is-config="true" duration-ms="1352" started-at="2022-09-25T17:41:19Z" finished-at="2022-09-25T17:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="intialiseel()[pri:0, instance:Runner.SubscriptionTestClass@6325a3ee]" name="intialiseel" is-config="true" duration-ms="17049" started-at="2022-09-25T17:41:21Z" finished-at="2022-09-25T17:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialiseel -->
+        <test-method status="PASS" signature="Subscrition_Kuwait()[pri:0, instance:Runner.SubscriptionTestClass@6325a3ee]" name="Subscrition_Kuwait" duration-ms="5902" started-at="2022-09-25T17:41:38Z" finished-at="2022-09-25T17:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Subscrition_Kuwait -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Runner.SubscriptionTestClass@6325a3ee]" name="AfterMethod" is-config="true" duration-ms="2668" started-at="2022-09-25T17:41:44Z" finished-at="2022-09-25T17:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="flusextenreports()[pri:0, instance:Runner.SubscriptionTestClass@6325a3ee]" name="flusextenreports" is-config="true" duration-ms="1359" started-at="2022-09-25T17:41:46Z" finished-at="2022-09-25T17:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flusextenreports -->
+      </class> <!-- Runner.SubscriptionTestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
